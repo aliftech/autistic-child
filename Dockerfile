@@ -1,10 +1,6 @@
-FROM python:3.10-slim-buster
+FROM python:3.10
 WORKDIR /Autistic Children
 COPY . .
-
-ADD . /app
 RUN pip install -r requirements.txt
-
-EXPOSE 9001
-
+EXPOSE 5000
 CMD ["uvicorn", "app:app", "--reload"]
