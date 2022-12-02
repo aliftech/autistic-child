@@ -17,3 +17,8 @@ After having a model, we need to run the api by the following command:
 
 uvicorn app:app --reload
 Then, access the REST API by accessing this url in your browser 127.0.0.1:8000/docs
+
+### Containerized
+```
+    docker-compose up
+```
