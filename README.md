@@ -17,7 +17,8 @@ Then, you have to wait untill training precess finish and the vegetable_model fo
 
 After having a model, we need to run the api by the following command:
 
-```uvicorn app:app --reload
+```
+uvicorn app:app --reload
 ```
 Then, access the REST API by accessing this url in your browser 127.0.0.1:8000/docs
 
