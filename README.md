@@ -9,13 +9,16 @@ The datasets i used was from https://www.kaggle.com/datasets/imrankhan77/autisti
 
 ## How to Run
 Before running this project, you need to train and save the machine learning model by running the train.py using this command:
-
+```
 python train.py
+```
+
 Then, you have to wait untill training precess finish and the vegetable_model folder created. In this folder, your machine learning model will be saved.
 
 After having a model, we need to run the api by the following command:
 
-uvicorn app:app --reload
+```uvicorn app:app --reload
+```
 Then, access the REST API by accessing this url in your browser 127.0.0.1:8000/docs
 
 ### Containerized
